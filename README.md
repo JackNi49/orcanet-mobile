@@ -20,4 +20,5 @@ npm install -g expo-cli
 ### Setting up the development environment
 
 - git clone the repo onto your local device
-- npm run [ios / android / web]
+- npm install
+- expo start
