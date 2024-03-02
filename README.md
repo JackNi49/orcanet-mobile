@@ -21,4 +21,4 @@ npm install -g expo-cli
 
 - git clone the repo onto your local device
 - npm install
-- expo start
+- npx expo start
