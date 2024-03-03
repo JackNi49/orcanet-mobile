@@ -1,16 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { Button } from "@/components/ui/button"
-import { Link } from 'lucide-react';
+import Testing from 'src/components/testing';
 
 export default function App() {
   return (
     <View style={styles.container}>
-
-    <Link>
-      <Button>HI</Button>
-    </Link>
-
+      <Testing/>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
