@@ -13,6 +13,23 @@ import {
 export default function App() {
   return (
     <View style={styles.container}>
+
+      <Menubar>
+        <MenubarMenu>
+          <MenubarTrigger>File</MenubarTrigger>
+          <MenubarContent>
+            <MenubarItem>
+              New Tab <MenubarShortcut>⌘T</MenubarShortcut>
+            </MenubarItem>
+            <MenubarItem>New Window</MenubarItem>
+            <MenubarSeparator />
+            <MenubarItem>Share</MenubarItem>
+            <MenubarSeparator />
+            <MenubarItem>Print</MenubarItem>
+          </MenubarContent>
+        </MenubarMenu>
+      </Menubar>
+
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
